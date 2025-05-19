@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.fondo-pagina{
+    background: linear-gradient(to bottom, #004080, #001A33);
+}
