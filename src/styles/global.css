@@ -3,3 +3,54 @@
 .fondo-pagina{
     background: linear-gradient(to bottom, #004080, #001A33);
 }
+
+@theme{
+    /* Color */
+    --color-primario: #223964;
+    --color-primario-light: #4c82d8;
+    --color-secundario: #e3e7ea;
+    --color-secundario-light:'';
+    /* Fonts */
+    --font-titulos:'OutfitBold', 'sans-serif';
+    --font-subtitulos:'OutfitMedium', 'sans-serif';
+    --font-mediotitulo:'OutfitRegular','sans-serif';
+    --font-parrafos:'ProximaNova','sans-serif';
+
+}
+
+@layer base{
+    h1{
+        @apply font-titulos;
+    }
+    h2{
+        @apply font-subtitulos;
+    }
+    p{
+        @apply font-parrafos;
+    }
+}
+
+@font-face {
+  font-family: 'OutfitBold';
+  src: url('/fonts/Outfit-Bold.ttf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OutfitMedium';
+  src: url('/fonts/Outfit-Medium.ttf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OutfitRegular';
+  src: url('/fonts/Outfit-Regular.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('/fonts/ProximaNova.ttc') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}

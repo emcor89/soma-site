@@ -1,25 +1,70 @@
 ---
 import "../styles/global.css";
 ---
-<header class="px-0 bg-blue-950">
-  <div class="h-[90px] flex justify-between items-center px-5 py-0 mx-auto my-0 max-w-screen-lg max-sm:flex-col max-sm:gap-5">
-    <div class="logo-container ">
-      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a102e06092073474479e645d303eb5c95681dc75" alt="Logo" class="h-[80px] w-[160px]">
+<header class="px-0 bg-[#E3E8EB]">
+  <div class="fixed top-0 h-[90px] z-40 w-full bg-secundario">
+  <div class="h-[85px] flex justify-between items-center px-8 py-4 w-full max-w-screen-lg mx-auto">
+    <!-- Logo -->
+    <div class="w-[216px] flex items-center">
+      <img src="/img/logoMenu.png" alt="Soma Logo" />
     </div>
 
-    <nav class="flex gap-8 items-center max-sm:hidden" aria-label="Main navigation">
-      <a href="#soma" class="text-base text-orange-50 cursor-pointer hover:text-orange-200 transition-colors">Soma</a>
-      <a href="#servicio" class="text-base text-orange-50 cursor-pointer hover:text-orange-200 transition-colors">Servicio</a>
-      <a href="#contacto" class="text-base text-orange-50 cursor-pointer hover:text-orange-200 transition-colors">Contacto</a>
-    </nav>
+    <!-- Menú Desktop -->
+    <ul class="hidden md:flex gap-8 items-center">
+      <li class="text-base text-primario font-parrafos hover:text-primario-light transition"><a href="#">Soma</a></li>
+      <li class="text-base text-primario font-parrafos hover:text-primario-light transition"><a href="#nosotros">Nosotros</a></li>
+      <li class="text-base text-primario font-parrafos hover:text-primario-light transition"><a href="#servicios">Servicios</a></li>
+      <li class="text-base text-primario font-parrafos hover:text-primario-light transition"><a href="#contacto">Contacto</a></li>
+      <!-- Icono de Instagram Desktop -->
+      <li class="text-base">
+        <a href="https://www.instagram.com/mipatria_ec/" target="_blank" rel="noopener noreferrer" class="text-primario hover:text-primario-light transition">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5Zm4.25 3.25a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11Zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8Zm5-1.1a1.1 1.1 0 1 1 0 2.2a1.1 1.1 0 0 1 0-2.2Z" />
+          </svg>
+        </a>
+      </li>
+    </ul>
 
-    <div class="social-media flex items-center">
-      <a href="#" aria-label="Visit our Instagram">
-        <svg width="77" height="43" viewBox="0 0 77 43" fill="none" xmlns="http://www.w3.org/2000/svg" class="social-svg">
-          <path d="M33.6786 18.9602C33.8305 18.8394 34.0565 18.9524 34.0565 19.1432V27.109C34.0565 28.1413 33.219 28.9787 32.1867 28.9787H15.9825C14.9503 28.9787 14.1128 28.1413 14.1128 27.109V19.1471C14.1128 18.9524 14.3348 18.8433 14.4906 18.9641C15.3632 19.6418 16.5201 20.5027 20.4932 23.3891C21.3151 23.9889 22.7018 25.251 24.0846 25.2432C25.4752 25.2549 26.8892 23.9656 27.6799 23.3891C31.6531 20.5027 32.8061 19.6379 33.6786 18.9602ZM24.0846 23.9928C24.9883 24.0084 26.2893 22.8554 26.9437 22.3802C32.1127 18.6291 32.5061 18.3019 33.6981 17.367C33.924 17.1917 34.0565 16.9191 34.0565 16.6308V15.8907C34.0565 14.8585 33.219 14.021 32.1867 14.021H15.9825C14.9503 14.021 14.1128 14.8585 14.1128 15.8907V16.6308C14.1128 16.9191 14.2452 17.1878 14.4712 17.367C15.6631 18.298 16.0565 18.6291 21.2255 22.3802C21.8799 22.8554 23.1809 24.0084 24.0846 23.9928Z" fill="#FCF0E3"/>
-          <path d="M67.0305 16.3877C64.2007 16.3877 61.9183 18.6702 61.9183 21.4999C61.9183 24.3296 64.2007 26.612 67.0305 26.612C69.8602 26.612 72.1426 24.3296 72.1426 21.4999C72.1426 18.6702 69.8602 16.3877 67.0305 16.3877ZM67.0305 24.8235C65.2018 24.8235 63.7069 23.333 63.7069 21.4999C63.7069 19.6668 65.1974 18.1763 67.0305 18.1763C68.8635 18.1763 70.354 19.6668 70.354 21.4999C70.354 23.333 68.8591 24.8235 67.0305 24.8235ZM73.5441 16.1786C73.5441 16.8415 73.0102 17.371 72.3517 17.371C71.6888 17.371 71.1593 16.8371 71.1593 16.1786C71.1593 15.5201 71.6932 14.9862 72.3517 14.9862C73.0102 14.9862 73.5441 15.5201 73.5441 16.1786ZM76.93 17.3888C76.8543 15.7915 76.4895 14.3767 75.3194 13.211C74.1537 12.0453 72.7388 11.6804 71.1415 11.6003C69.4953 11.5069 64.5611 11.5069 62.9149 11.6003C61.3221 11.676 59.9072 12.0408 58.7371 13.2065C57.5669 14.3722 57.2066 15.7871 57.1265 17.3843C57.033 19.0306 57.033 23.9648 57.1265 25.611C57.2021 27.2082 57.5669 28.6231 58.7371 29.7888C59.9072 30.9545 61.3176 31.3193 62.9149 31.3994C64.5611 31.4928 69.4953 31.4928 71.1415 31.3994C72.7388 31.3238 74.1537 30.9589 75.3194 29.7888C76.4851 28.6231 76.8499 27.2082 76.93 25.611C77.0234 23.9648 77.0234 19.035 76.93 17.3888ZM74.8033 27.3773C74.4562 28.2494 73.7844 28.9212 72.9079 29.2727C71.5954 29.7932 68.4809 29.6731 67.0305 29.6731C65.58 29.6731 62.4611 29.7888 61.153 29.2727C60.281 28.9256 59.6091 28.2538 59.2577 27.3773C58.7371 26.0648 58.8572 22.9503 58.8572 21.4999C58.8572 20.0494 58.7415 16.9305 59.2577 15.6225C59.6047 14.7504 60.2765 14.0786 61.153 13.7271C62.4655 13.2065 65.58 13.3266 67.0305 13.3266C68.4809 13.3266 71.5998 13.211 72.9079 13.7271C73.7799 14.0741 74.4518 14.746 74.8033 15.6225C75.3238 16.935 75.2037 20.0494 75.2037 21.4999C75.2037 22.9503 75.3238 26.0692 74.8033 27.3773Z" fill="#FCF0E3"/>
-        </svg>
-      </a>
-    </div>
+    <!-- Botón hamburguesa Mobile -->
+    <button id="menu-toggle" class="md:hidden text-primario">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
   </div>
+
+  <!-- Menú Mobile -->
+  <ul
+    id="menu-mobile"
+    class="hidden md:hidden  flex-col bg-secundario mt-0 px-8 py-4 space-y-2 text-primario font-parrafos border-b border-secundario"
+  >
+    <li><a href="#" class="block py-2">Soma</a></li>
+    <li><a href="#nosotros" class="block py-2">Nosotros</a></li>
+    <li><a href="#servicios" class="block py-2">Servicios</a></li>
+    <li><a href="#contacto" class="block py-2">Contacto</a></li>
+    <!-- Icono de Instagram Mobile -->
+    <li>
+      <a href="https://www.instagram.com/mipatria_ec/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 py-2 text-primario hover:text-primario-light transition">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5Zm4.25 3.25a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11Zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8Zm5-1.1a1.1 1.1 0 1 1 0 2.2a1.1 1.1 0 0 1 0-2.2Z" />
+        </svg>
+        <span>Instagram</span>
+      </a>
+    </li>
+  </ul>
+</div>
 </header>
+
+
+
+<script type="module">
+  if (typeof window !== 'undefined') {
+    const toggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("menu-mobile");
+
+    toggle?.addEventListener("click", () => {
+      mobileMenu?.classList.toggle("hidden");
+    });
+  }
+</script>
