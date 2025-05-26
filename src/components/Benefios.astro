@@ -1,32 +1,32 @@
 ---
-import "../styles/global.css";
+
 ---
 <section class="flex w-full justify-center">
   <section class="flex flex-wrap gap-28 items-start">
-    <div class="flex flex-col pb-44 min-w-60 w-[471px] max-md:pb-24 max-md:max-w-full">
+    <div class="flex flex-col min-w-60 w-[471px] px-5 md:px-0">
       <img
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd30e88041120534f33dec046cd015e3667b34f6?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
         alt="Service showcase"
-        class="object-contain w-full rounded-3xl aspect-square max-md:max-w-full"
+        class="hidden md:block object-contain w-full rounded-3xl aspect-square max-md:max-w-full"
       />
       <img
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/ea31ba9282bfd6d7dcdbe6e1ac7ff37638c16849?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
         alt="Service highlight"
-        class="object-contain self-end -mr-10 -mt-16 max-w-full rounded-3xl aspect-square shadow-[-2px_-2px_3px_rgba(1,42,83,1)] w-[343px]"
+        class="md:object-contain md:self-end md:-mr-10 -mt-16 w-full md:max-w-full rounded-3xl aspect-square shadow-[-2px_-2px_3px_rgba(1,42,83,1)] w-[343px]"
       />
     </div>
 
-    <div class="min-w-60 w-[438px] max-md:max-w-full">
+    <div class="w-[438px] px-5 md:px-0">
       <header class="w-full min-h-[84px] text-zinc-100 max-md:max-w-full">
-        <h2 class="flex-1 text-2xl max-md:max-w-full">
+        <h2 class="font-subtitulos flex-1 text-xl max-md:max-w-full">
           Soma tu me alternativa
         </h2>
-        <h3 class="flex-1 text-3xl font-bold max-md:max-w-full">
+        <h3 class="font-subtitulos flex-1 text-3xl font-bold max-md:max-w-full">
           Nuestra gama de servicios
         </h3>
       </header>
 
-      <hr class="mt-6 w-full border-2 border-white border-solid min-h-0.5 max-md:max-w-full" />
+      <hr class="mt-6 w-full border border-white" />
 
       <div class="mt-6 max-w-full text-white w-[414px]">
         <article class="flex gap-7 items-start w-full">
@@ -36,11 +36,13 @@ import "../styles/global.css";
             class="object-contain shrink-0 aspect-[0.91] w-[50px]"
           />
           <div class="flex flex-col justify-center min-w-60 w-[337px]">
-            <h4 class="text-2xl font-bold">
+            <h4 class="font-subtitulos font-bold text-xl">
               Profesionales experimentadas
             </h4>
-            <p class="mt-3 text-xl">
-              Nuestro equipo está formado por trabajadores capacitados y certificados que se enorgullecen de su trabajo.
+            <p class="font-parrafos mt-3 text-base font-thin">
+              Nuestra experiencia como asesores, capacitadores y coordinadores de equipos nos permite 
+              estructurar procesos sólidos, con base en normas técnicas, criterios éticos y 
+              herramientas de evaluación profesional. 
             </p>
           </div>
         </article>
@@ -52,11 +54,13 @@ import "../styles/global.css";
             class="object-contain shrink-0 aspect-[0.91] w-[50px]"
           />
           <div class="min-w-60 w-[323px]">
-            <h4 class="text-2xl">
-              Productos ecológicos
+            <h4 class="font-subtitulos font-bold text-xl">
+              Servicio de Confianza
             </h4>
-            <p class="mt-3 text-xl">
-              Utilizamos productos seguros para el medio ambiente para garantizar la seguridad de su familia y sus mascotas.
+            <p class="font-parrafos mt-3 text-base font-thin">
+               Garantizamos que cada familia que confía en nosotros reciba un servicio serio, profesional 
+               y respaldado legalmente, mientras que cada colaborador seleccionado sea tratado con respeto, 
+               equidad y seguridad jurídica.
             </p>
           </div>
         </article>
@@ -68,11 +72,13 @@ import "../styles/global.css";
             class="object-contain shrink-0 aspect-[0.91] w-[50px]"
           />
           <div class="min-w-60 w-[323px]">
-            <h4 class="text-2xl">
+            <h4 class="text-xl font-bold font-subtitulos">
               Satisfacción garantizada
             </h4>
-            <p class="mt-3 text-xl">
-              Respaldamos la calidad de nuestro trabajo y garantizamos su satisfacción.
+            <p class="font-parrafos mt-3 text-base font-thin" >
+              Nos aseguramos que cada proceso de selección, contratación y capacitación de personal 
+              doméstico se desarrolle dentro del marco legal vigente, respetando los derechos tanto
+               de las familias como de los trabajadores
             </p>
           </div>
         </article>
