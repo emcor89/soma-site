@@ -1,93 +1,69 @@
 ---
 
 ---
-<main class="flex flex-col gap-36 items-start px-5 py-0 mx-auto my-0 w-full max-w-screen-xl max-md:gap-20 max-md:px-4 max-md:py-0 max-sm:gap-16 max-sm:px-2.5 max-sm:py-0">
-  <section class="flex gap-24 items-center w-full max-md:flex-col max-md:gap-10 max-md:items-center">
-    <header class="flex flex-col gap-6 items-start w-[509px] max-md:items-center max-md:w-full max-md:text-center max-md:max-w-[600px]">
-      <h1 class="w-full text-6xl font-bold text-black max-md:w-full max-md:text-5xl max-sm:text-4xl">
-        Confianza y bienestar en tu hogar
+<main class="bg-white pt-[90px] flex flex-col gap-24 items-center py-0 w-full justify-center">
+  <section class="md:basis-[60%] flex justify-end gap-24 items-center pt-7 w-full">
+    <header class=" text-center md:text-left w-[740px]">
+      <h1 class="text-xl md:text-7xl font-bold text-primario mb-4">
+        Confianza y <br>bienestar en <br>tu hogar
       </h1>
-      <p class="text-2xl text-justify text-black h-[168px] w-[468px] max-md:w-full max-md:text-xl max-md:text-center max-sm:text-lg">
+      <p class="font-parrafos text-primario my-9 max-w-md mx-auto md:mx-0">
         Somos especialistas en la selección y gestión integral de personal doméstico, comprometidos con ofrecer soluciones confiables, profesionales y humanas.
       </p>
-      <div class="flex gap-6 justify-center items-center w-full max-md:flex-col max-md:gap-4 max-md:w-full">
-        <button class="gap-2.5 p-5 text-2xl text-white bg-sky-900 rounded-xl cursor-pointer w-[250px] max-md:w-full max-md:max-w-[300px] max-sm:p-4 max-sm:text-xl">
+      <div class="flex justify-center md:justify-start gap-4">
+        <button class="bg-primario text-white px-6 py-2 rounded-lg hover:bg-primario-light transition">
           Servicios
         </button>
-        <button class="gap-2.5 p-5 text-2xl text-white bg-sky-900 rounded-xl cursor-pointer w-[250px] max-md:w-full max-md:max-w-[300px] max-sm:p-4 max-sm:text-xl">
+        <button class="bg-primario text-white px-6 py-2 rounded-lg hover:bg-primario-light transition">
           Contactanos
         </button>
       </div>
     </header>
-    <img
+    <div class="md:basis-[40%]">
+      <img
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/5b33d70270f732475345cc390ba08556499df7f0?placeholderIfAbsent=true"
       alt="Banner ilustrativo de servicios domésticos"
-      class="rounded-xl h-[516px] w-[676px] max-md:w-full max-md:h-auto max-md:rounded-xl max-md:max-w-[600px]"
-    />
+      class="rounded-xl w-full h-auto object-cover"
+      />
+    </div>
   </section>
+  <section class="relative bg-white w-full">
+  <!-- Línea azul inferior -->
+  <div class="absolute bottom-0 left-0 w-full h-1/2 bg-[#01376e] z-0"></div>
 
-  <section class="flex gap-16 items-center w-full max-md:flex-col max-md:gap-8 max-md:w-full">
-    <article class="flex gap-2.5 justify-center items-center px-8 py-11 bg-white rounded-xl border-2 border-solid shadow-sm border-slate-700 h-[436px] w-[310px] max-md:px-5 max-md:py-8 max-md:w-full max-md:h-auto max-md:max-w-[400px] max-sm:px-4 max-sm:py-6">
-      <div class="flex flex-col gap-6 justify-center items-center w-full">
-        <div class="relative h-[120px] w-[120px] max-sm:h-[100px] max-sm:w-[100px]">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/743cf72d321fcd3ef93a88987f0b2776aa69b9b1?placeholderIfAbsent=true"
-            alt="Ícono de capacitación"
-            class="absolute top-0 left-0 h-[118px] w-[118px] z-[2] max-sm:h-[98px] max-sm:w-[98px]"
-          />
-          <div class="absolute top-0.5 left-0.5 rounded-3xl bg-slate-700 bg-opacity-50 h-[93px] rotate-[18.945deg] w-[93px] max-sm:h-[78px] max-sm:w-[78px]"></div>
-        </div>
-        <div class="flex flex-col gap-6 items-start w-full">
-          <h2 class="w-full text-2xl font-bold text-black max-sm:text-xl">
-            Capacitación
-          </h2>
-          <p class="w-full text-xl text-justify text-black max-sm:text-lg">
-            A través de alianzas con Presto y otros aliados especializados, ofrecemos formación en áreas clave
-          </p>
-        </div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row gap-6 justify-center items-start">
+    <!-- Tarjeta -->
+    <div class="bg-white rounded-lg shadow border py-6 px-9 w-full md:w-1/3 flex flex-col items-center text-center z-10">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef07cf43ea1b001dc2be3938eae7dfd1346c7190?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472" class="w-24 h-24 mb-6" alt="Capacitación" />
+      <div class="mt-6 w-full">
+        <h3 class="text-primario font-subtitulos font-bold text-2xl mb-2 text-left mb-6">Selección</h3>
+        <p class="text-base text-primario text-justify">
+          Cada candidato pasa por filtros psicológicos, entrevistas por competencias.
+        </p>
       </div>
-    </article>
+    </div>
 
-    <article class="flex gap-2.5 justify-center items-center px-8 py-11 bg-white rounded-xl border-2 border-solid shadow-sm border-slate-700 h-[436px] w-[310px] max-md:px-5 max-md:py-8 max-md:w-full max-md:h-auto max-md:max-w-[400px] max-sm:px-4 max-sm:py-6">
-      <div class="flex flex-col gap-6 justify-center items-center w-full">
-        <div class="relative h-[120px] w-[120px] max-sm:h-[100px] max-sm:w-[100px]">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/970ee83c5e4011aae6de321cf2576e28199c0b97?placeholderIfAbsent=true"
-            alt="Ícono de selección"
-            class="absolute top-0 left-0 h-[118px] w-[118px] z-[2] max-sm:h-[98px] max-sm:w-[98px]"
-          />
-          <div class="absolute left-0 top-1 rounded-3xl bg-slate-700 bg-opacity-50 h-[93px] rotate-[-15deg] w-[93px] max-sm:h-[78px] max-sm:w-[78px]"></div>
-        </div>
-        <div class="flex flex-col gap-6 items-start w-full">
-          <h2 class="w-full text-2xl font-bold text-black max-sm:text-xl">
-            Selección
-          </h2>
-          <p class="w-full text-xl text-justify text-black max-sm:text-lg">
-            Cada candidato pasa por filtros psicológicos, entrevistas por competencias.
-          </p>
-        </div>
+    <div class="bg-white rounded-lg shadow border py-6 px-9 w-full md:w-1/3 flex flex-col items-center text-center z-10">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef07cf43ea1b001dc2be3938eae7dfd1346c7190?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472" class="w-24 h-24 mb-6" alt="Selección" />
+      <div class="mt-6 w-full">
+        <h3 class="text-primario font-subtitulos font-bold text-2xl mb-2 text-left mb-6">Capacitación</h3>
+        <p class="text-base text-primario text-justify">
+          Cada candidato pasa por filtros psicológicos, entrevistas por competencias.
+        </p>
       </div>
-    </article>
+    </div>
 
-    <article class="flex gap-2.5 justify-center items-center px-8 py-11 bg-white rounded-xl border-2 border-solid shadow-sm border-slate-700 h-[436px] w-[310px] max-md:px-5 max-md:py-8 max-md:w-full max-md:h-auto max-md:max-w-[400px] max-sm:px-4 max-sm:py-6">
-      <div class="flex flex-col gap-6 justify-center items-center w-full">
-        <div class="relative h-[120px] w-[120px] max-sm:h-[100px] max-sm:w-[100px]">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/4ceeea1c54b98122f5671a2e93fc5d12c2ebcb37?placeholderIfAbsent=true"
-            alt="Ícono de evaluación"
-            class="absolute top-0 left-0 h-[118px] w-[118px] z-[2] max-sm:h-[98px] max-sm:w-[98px]"
-          />
-          <div class="absolute left-0 top-0.5 rounded-3xl bg-slate-700 bg-opacity-50 h-[93px] rotate-[70.931deg] w-[93px] max-sm:h-[78px] max-sm:w-[78px]"></div>
-        </div>
-        <div class="flex flex-col gap-6 items-start w-full">
-          <h2 class="w-full text-2xl font-bold text-black max-sm:text-xl">
-            Evaluación
-          </h2>
-          <p class="w-full text-xl text-justify text-black max-sm:text-lg">
-            Aplicamos un sistema de evaluación de última generación, desarrollado en Israel.
-          </p>
-        </div>
+    <div class="bg-white rounded-lg shadow border py-6 px-9 w-full md:w-1/3 flex flex-col items-center text-center z-10">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef07cf43ea1b001dc2be3938eae7dfd1346c7190?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472" class="w-24 h-24 mb-6" alt="Evaluación" />
+      <div class="mt-6 w-full">
+        <h3 class="text-primario font-subtitulos font-bold text-2xl mb-2 text-left mb-6">Evaluación</h3>
+        <p class="text-base text-primario text-justify">
+          Cada candidato pasa por filtros psicológicos, entrevistas por competencias.
+        </p>
       </div>
-    </article>
+    </div>
+  </div>
   </section>
+  
 </main>
+
