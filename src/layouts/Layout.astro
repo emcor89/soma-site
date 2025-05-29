@@ -1,5 +1,8 @@
 ---
 import "../styles/global.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 ---
 <!doctype html>
 <html lang="en">
@@ -7,6 +10,7 @@ import "../styles/global.css";
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
 		<title>Soma</title>
 	</head>
@@ -14,6 +18,13 @@ import "../styles/global.css";
 		<div class="fondo-pagina">
 			<slot />
 		</div>
+		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+		<script>
+			import AOS from 'aos';
+			import 'aos/dist/aos.css';
+
+			AOS.init();
+		</script>
 	</body>
 </html>
 

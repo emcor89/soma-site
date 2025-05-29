@@ -1,166 +1,247 @@
 ---
 
 ---
+
+<!-- 
 <section class="w-full flex flex-col items-center my-24 mx-5 md:mx-0">
   <h2 class="px-5 md:px-0 font-subtitulos text-3xl font-bold text-white w-full max-w-[1080px]">
       Nuestros Servicios
     </h2>
-  <div class="flex flex-wrap gap-16 justify-center items-start mt-14 w-full max-w-[1080px] text-primario max-md:mt-10 max-md:max-w-full">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[1080px] mx-auto mt-14 px-4" data-aos="fade-up" data-aos-delay="100">
     
-    <article class="flex md:grow shrink gap-2.5 justify-center items-center px-8 py-14 bg-white rounded-xl border-2 border-solid border-slate-700 min-h-[436px] min-w-60 shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-      <div class="flex flex-col justify-center self-stretch my-auto w-[238px]">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef07cf43ea1b001dc2be3938eae7dfd1346c7190?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
-          alt="Capacitación"
-          class="object-contain self-center max-w-full rounded-none aspect-[1.01] w-[120px]"
-        />
-        <div class="mt-6 w-full">
-          <h2 class="text-2xl font-bold">Pruebas de polígrafo</h2>
-          <p class="font-parrafos mt-6 text-base font-thin">
-            Trabajamos con expertos certificados en seguridad para aplicar pruebas de polígrafo, 
-            ideales para casos específicos donde se requiere validar información con alto nivel de certeza.
-          </p>
-        </div>
+        <article class="bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105 break-inside-avoid">
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef07cf43ea1b001dc2be3938eae7dfd1346c7190?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
+              alt="Capacitación"
+              class="w-28 mb-6"
+            />
+            
+              <h2 class="font-subtitulos text-xl font-bold mb-4 text-center">Pruebas de polígrafo</h2>
+              <p class="font-parrafos text-base text-center font-light">
+                Trabajamos con expertos certificados en seguridad para aplicar pruebas de polígrafo, 
+                ideales para casos específicos donde se requiere validar información con alto nivel de certeza.
+              </p>
+           
+          </div>
+        </article>
+
+        <article class="bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105 break-inside-avoid" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/599004d3fa42a18a9617f705d60ee3175a84b1a7?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
+              alt="Selección"
+              class="w-28 mb-6"
+            />
+            
+              <h2 class="font-subtitulos text-xl font-bold mb-4 text-center">Asesoría legal en procesos de vinculación y desvinculación</h2>
+              <p class="font-parrafos text-base text-center font-light">
+                Brindamos acompañamiento jurídico para garantizar una relación laboral transparente, 
+                cumpliendo con la legislación vigente en contratación, finalización de contratos y 
+                derechos laborales.
+              </p>
+            
+          </div>
+        </article>
+
+        <article class="bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105 break-inside-avoid" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5e6094ce1c356164ff02c0da12c22cf2c432bc5e?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
+              alt="Evaluación"
+              class="w-28 mb-6"
+            />
+            
+              <h2 class="text-xl font-bold mb-4 text-center font-subtitulos">Mediación de conflictos laborales</h2>
+              <p class="text-base text-center font-light font-parrafos">
+                Intervenimos de manera profesional y objetiva para resolver conflictos entre 
+                empleadores y empleados domésticos, promoviendo el diálogo, el respeto mutuo 
+                y la continuidad de la relación laboral cuando sea posible.
+              </p>
+            
+          </div>
+        </article>
+
+        <article class="bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105 break-inside-avoid" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b2907d50155960f1a81719080eec99ebcb81cd8?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
+              alt="Capacitación"
+              class="mb-6 w-28"
+            />
+            
+              <h2 class="text-xl font-bold mb-4 text-center font-subtitulos">Capacitación continua y profesionalización del personal</h2>
+              <p class="font-parrafos text-base text-center font-light">
+                A través de alianzas con Presto y otros aliados especializados, ofrecemos formación en áreas clave para el desempeño de funciones en el hogar:
+              </p>  
+              <ul class="space-y-4 mt-4 ">
+                  <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
+                    </svg>
+                    <span class="text-primario">Cuidado del infante</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
+                    </svg>
+                    <span class="text-primario">Alimentación saludable</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
+                    </svg>
+                    <span class="text-primario">Técnicas de limpieza profesional</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
+                    </svg>
+                    <span class="text-primario">Inteligencia emocional y manejo del estrés</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
+                    </svg>
+                    <span class="text-primario">Ética y responsabilidad laboral</span>
+                  </li>
+                </ul>
+            
+          </div>
+        </article>
+
+        <article class="bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105 break-inside-avoid" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/599004d3fa42a18a9617f705d60ee3175a84b1a7?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
+              alt="Selección"
+              class="w-28 mb-6"
+            />
+            
+              <h2 class="text-xl font-bold mb-4 text-center font-subtitulos">Selección especializada de personal doméstico</h2>
+              <p class="text-base text-center font-light font-parrafos">
+                Contamos con un proceso riguroso y personalizado para la selección de:
+              </p>
+              <ul class="space-y-4 mt-4 text-base font-parrafos">
+                  <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
+                    </svg>
+                    <span class="text-primario">Niñeras</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
+                    </svg>
+                    <span class="text-primario">Empleados domésticos</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
+                    </svg>
+                    <span class="text-primario">Choferes</span>
+                  </li>
+              </ul>
+              
+          </div>
+        </article>
+
+        <article class="bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105 break-inside-avoid" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/1655f905c902b096ab91513bd4505b0ca99c28a2?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
+              alt="Evaluación"
+              class="w-28 mb-6"
+            />
+            
+              <h2 class="text-xl font-bold mb-4 text-center font-subtitulos">Evaluación de integridad con tecnología israelí</h2>
+              <p class="text-base text-center font-light font-parrafos">
+                Aplicamos un sistema de evaluación de última generación, desarrollado en Israel, 
+                que permite medir de forma objetiva y predictiva el nivel de honestidad, confiabilidad 
+                y riesgo de cada candidato..
+              </p>
+            
+          </div>
+        </article>
+    </div>
+  
+</section> -->
+
+<!-- cambios -->
+ <section class="w-full flex flex-col items-center my-24 mx-5 md:mx-0">
+  <h2 class="px-5 md:px-0 font-subtitulos text-3xl font-bold text-white w-full max-w-[1080px]">
+      Nuestros Servicios
+  </h2>
+  <div class="columns-1 sm:columns-2 lg:columns-3 gap-6 px-4 max-w-[1080px] mx-auto mt-14">
+  
+    <!-- Tarjeta 1 -->
+    <article class="mb-6 break-inside-avoid bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef07cf43ea1b001dc2be3938eae7dfd1346c7190" alt="Capacitación" class="w-28 mb-6" />
+        <h2 class="text-xl font-bold mb-4 text-center">Pruebas de polígrafo</h2>
+        <p class="text-base text-center font-light">Trabajamos con expertos certificados en seguridad para aplicar pruebas de polígrafo, ideales para casos específicos donde se requiere validar información con alto nivel de certeza.</p>
       </div>
     </article>
 
-    <article class="flex md:grow shrink gap-2.5 justify-center items-center px-8 py-14 text-2xl bg-white rounded-xl border-2 border-solid border-slate-700 min-h-[436px] min-w-60 shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-      <div class="flex flex-col justify-center self-stretch my-auto min-w-60 w-[251px]">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/599004d3fa42a18a9617f705d60ee3175a84b1a7?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
-          alt="Selección"
-          class="object-contain self-center max-w-full rounded-none aspect-square w-[118px]"
-        />
-        <div class="mt-6 w-full">
-          <h2 class="font-bold">Asesoría legal en procesos de vinculación y desvinculación</h2>
-          <p class="mt-6 text-base font-[250]">
-            Brindamos acompañamiento jurídico para garantizar una relación laboral transparente, 
-            cumpliendo con la legislación vigente en contratación, finalización de contratos y 
-            derechos laborales.
-          </p>
-        </div>
+    <!-- Tarjeta 2 -->
+    <article class="mb-6 break-inside-avoid bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/599004d3fa42a18a9617f705d60ee3175a84b1a7" alt="Selección" class="w-28 mb-6" />
+        <h2 class="text-xl font-bold mb-4 text-center">Asesoría legal en procesos de vinculación y desvinculación</h2>
+        <p class="text-base text-center font-light">Brindamos acompañamiento jurídico para garantizar una relación laboral transparente, cumpliendo con la legislación vigente en contratación, finalización de contratos y derechos laborales.</p>
       </div>
     </article>
 
-    <article class="flex md:grow shrink gap-2.5 justify-center items-center px-8 py-14 bg-white rounded-xl border-2 border-solid border-slate-700 min-h-[436px] min-w-60 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] ">
-      <div class="flex flex-col justify-center self-stretch my-auto min-w-60 w-[259px]">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/5e6094ce1c356164ff02c0da12c22cf2c432bc5e?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
-          alt="Evaluación"
-          class="object-contain self-center max-w-full rounded-none aspect-square w-[120px]"
-        />
-        <div class="mt-6 w-full">
-          <h2 class="text-2xl font-bold">Mediación de conflictos laborales</h2>
-          <p class="font-parrafos mt-6 text-base font-thin">
-            Intervenimos de manera profesional y objetiva para resolver conflictos entre 
-            empleadores y empleados domésticos, promoviendo el diálogo, el respeto mutuo 
-            y la continuidad de la relación laboral cuando sea posible.
-          </p>
-        </div>
+    <!-- Tarjeta 3 -->
+    <article class="mb-6 break-inside-avoid bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/5e6094ce1c356164ff02c0da12c22cf2c432bc5e" alt="Evaluación" class="w-28 mb-6" />
+        <h2 class="text-xl font-bold mb-4 text-center">Mediación de conflictos laborales</h2>
+        <p class="text-base text-center font-light">Intervenimos de manera profesional y objetiva para resolver conflictos entre empleadores y empleados domésticos, promoviendo el diálogo, el respeto mutuo y la continuidad de la relación laboral cuando sea posible.</p>
       </div>
     </article>
 
-    <article class="flex md:grow shrink gap-2.5 justify-center items-center px-8 py-14 bg-white rounded-xl border-2 border-solid border-slate-700 min-h-[436px] min-w-60 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] ">
-      <div class="flex flex-col justify-center self-stretch my-auto w-[238px]">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b2907d50155960f1a81719080eec99ebcb81cd8?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
-          alt="Capacitación"
-          class="object-contain self-center max-w-full rounded-none aspect-square w-[120px]"
-        />
-        <div class="mt-6 w-full">
-          <h2 class="text-2xl font-bold">Capacitación continua y profesionalización del personal</h2>
-          <p class="font-parrafos mt-6 text-base font-thin">
-            A través de alianzas con Presto y otros aliados especializados, ofrecemos formación en áreas clave para el desempeño de funciones en el hogar:
-          </p>  
-          <ul class="space-y-4 mt-4 ">
-              <li class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
-                </svg>
-                <span class="text-primario">Cuidado del infante</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
-                </svg>
-                <span class="text-primario">Alimentación saludable</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
-                </svg>
-                <span class="text-primario">Técnicas de limpieza profesional</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
-                </svg>
-                <span class="text-primario">Inteligencia emocional y manejo del estrés</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
-                </svg>
-                <span class="text-primario">Ética y responsabilidad laboral</span>
-              </li>
-            </ul>
-        </div>
+    <!-- Tarjeta 4 (con lista) -->
+    <article class="mb-6 break-inside-avoid bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+      <div class="flex flex-col">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b2907d50155960f1a81719080eec99ebcb81cd8" alt="Capacitación" class="w-28 mb-6 self-center" />
+        <h2 class="text-xl font-bold mb-4 text-center">Capacitación continua y profesionalización del personal</h2>
+        <p class="text-base font-light">A través de alianzas con Presto y otros aliados especializados, ofrecemos formación en áreas clave para el desempeño de funciones en el hogar:</p>
+        <ul class="space-y-3 mt-4 text-base font-light list-none">
+          <li class="flex gap-3 items-start"><span class="text-primario">✔</span> Cuidado del infante</li>
+          <li class="flex gap-3 items-start"><span class="text-primario">✔</span> Alimentación saludable</li>
+          <li class="flex gap-3 items-start"><span class="text-primario">✔</span> Técnicas de limpieza profesional</li>
+          <li class="flex gap-3 items-start"><span class="text-primario">✔</span> Inteligencia emocional y manejo del estrés</li>
+          <li class="flex gap-3 items-start"><span class="text-primario">✔</span> Ética y responsabilidad laboral</li>
+        </ul>
       </div>
     </article>
 
-    <article class="flex md:grow shrink gap-2.5 justify-center items-center px-8 py-14 text-2xl bg-white rounded-xl border-2 border-solid border-slate-700 min-h-[436px] min-w-60 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] ">
-      <div class="flex flex-col justify-center self-stretch my-auto min-w-60 w-[251px]">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/599004d3fa42a18a9617f705d60ee3175a84b1a7?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
-          alt="Selección"
-          class="object-contain self-center max-w-full rounded-none aspect-square w-[118px]"
-        />
-        <div class="mt-6 w-full">
-          <h2 class="text-2xl font-bold">Selección especializada de personal doméstico</h2>
-          <p class="font-parrafos mt-6 text-base font-thin">
-            Contamos con un proceso riguroso y personalizado para la selección de:
-          </p>
-          <ul class="space-y-4 mt-4 text-base font-parrafos">
-              <li class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
-                </svg>
-                <span class="text-primario">Niñeras</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
-                </svg>
-                <span class="text-primario">Empleados domésticos</span>
-              </li>
-              <li class="flex items-start gap-3">
-                <svg class="w-6 h-6 text-primario mt-1" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" />
-                </svg>
-                <span class="text-primario">Choferes</span>
-              </li>
-          </ul>
-          
-        </div>
+    <!-- Tarjeta 5 -->
+    <article class="mb-6 break-inside-avoid bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+      <div class="flex flex-col items-center">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1655f905c902b096ab91513bd4505b0ca99c28a2" alt="Evaluación" class="w-28 mb-6" />
+        <h2 class="text-xl font-bold mb-4 text-center">Evaluación de integridad con tecnología israelí</h2>
+        <p class="text-base text-center font-light">Aplicamos un sistema de evaluación de última generación, desarrollado en Israel, que permite medir de forma objetiva y predictiva el nivel de honestidad, confiabilidad y riesgo de cada candidato.</p>
       </div>
     </article>
 
-    <article class="flex md:grow shrink gap-2.5 justify-center items-center px-8 py-14 bg-white rounded-xl border-2 border-solid border-slate-700 min-h-[436px] min-w-60 shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-      <div class="flex flex-col justify-center self-stretch my-auto min-w-60 w-[259px]">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/1655f905c902b096ab91513bd4505b0ca99c28a2?placeholderIfAbsent=true&apiKey=2ae942d826f94e6aab2cf449d09e4472"
-          alt="Evaluación"
-          class="object-contain self-center max-w-full rounded-none aspect-[0.99] w-[120px]"
-        />
-        <div class="mt-6 w-full">
-          <h2 class="text-2xl font-bold">Evaluación de integridad con tecnología israelí</h2>
-          <p class="font-parrafos mt-6 text-base font-thin">
-            Aplicamos un sistema de evaluación de última generación, desarrollado en Israel, 
-            que permite medir de forma objetiva y predictiva el nivel de honestidad, confiabilidad 
-            y riesgo de cada candidato..
-          </p>
-        </div>
+    <!-- Tarjeta 6 (con lista) -->
+    <article class="mb-6 break-inside-avoid bg-white border-2 border-slate-700 rounded-xl shadow-md p-8 transition-transform duration-300 hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+      <div class="flex flex-col">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/599004d3fa42a18a9617f705d60ee3175a84b1a7" alt="Selección" class="w-28 mb-6 self-center" />
+        <h2 class="text-xl font-bold mb-4 text-center">Selección especializada de personal doméstico</h2>
+        <p class="text-base font-light">Contamos con un proceso riguroso y personalizado para la selección de:</p>
+        <ul class="space-y-3 mt-4 text-base font-light list-none">
+          <li class="flex gap-3 items-start"><span class="text-primario">✔</span> Niñeras</li>
+          <li class="flex gap-3 items-start"><span class="text-primario">✔</span> Empleados domésticos</li>
+          <li class="flex gap-3 items-start"><span class="text-primario">✔</span> Choferes</li>
+        </ul>
       </div>
     </article>
+
   </div>
-</section>
+ </section>
+
+
+ 
