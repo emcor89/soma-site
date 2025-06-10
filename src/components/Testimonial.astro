@@ -1,13 +1,13 @@
 <section class=" flex flex-col justify-center items-center my-24 bg-white inset-shadow-sm">
     <!-- Puedes colocar esto dentro de una página .astro o como componente -->
-    <section class="flex flex-col md:flex-row items-start px-4 sm:px-6 lg:px-8 mt-24 mx-5 md:mx-0" >
+    <section class="flex flex-col md:flex-row items-start mb-24 px-4 sm:px-6 lg:px-8 mt-24 mx-5 md:mx-0" >
         <section class="flex flex-col flex-wrap gap-6 items-start w-full min-h-[238px] max-md:max-w-full">
-                <h2 class="text-3xl font-bold">Trabaja con Nosotros</h2>
-                <p class="grow shrink text-base text-primario w-[422px] max-md:max-w-full">
+                <h2 class="text-3xl font-bold font-titulos">Trabaja con Nosotros</h2>
+                <p class="grow shrink text-base text-primario w-[422px] max-md:max-w-full font-subtitulos">
                     En SOMA, buscamos personas responsables, comprometidas y con vocación de servicio para formar parte de nuestro equipo.
                 </p>
                 <h2 class="text-xl font-bold text-orange-200">Aviso de Privacidad</h2>
-                <p class="grow shrink text-base text-neutral-400 w-[422px] max-md:max-w-full text-justify">
+                <p class="font-subtitulos grow shrink text-base text-neutral-400 w-[422px] max-md:max-w-full text-justify">
                     
                     En SOMA Agencia de Servicios, nos comprometemos a proteger la información personal que nos proporcionas. Los datos 
                     recopilados a través de este formulario serán utilizados exclusivamente para procesos de selección y reclutamiento 
@@ -18,7 +18,7 @@
                 </p>
         </section>    
         <div class="mt-5 md:mt-0 mb-10 md:mb-0 max-w-xl mx-auto">
-            <h2 class="text-2xl font-bold text-gray-800 mb-2">Completa el siguiente formulario y adjunta tu hoja de vida.</h2>
+            <h2 class="text-2xl font-titulos font-bold text-gray-800 mb-2">Completa el siguiente formulario y adjunta tu hoja de vida.</h2>
             <p class="text-base text-neutral-400 mb-8">Todos los datos son obligatorios.  </p>
             <form class="space-y-6" name="formulario-aplicacion" method="POST" enctype="multipart/form-data">
                 <!-- Nombre Completo -->
@@ -47,7 +47,7 @@
                 <div>
                     <label for="celular" class="block text-sm font-medium text-primario">Número de Celular</label>
                     <input
-                    type="tel"
+                    type="number"
                     name="celular"
                     id="celular"
                     required
@@ -79,10 +79,10 @@
                 </div>
 
                 <!-- Botón -->
-                <div class="">
+                <div class="text-center">
                     <button
                     type="submit"
-                    class="inline-flex rounded-md border border-transparent bg-primario px-6 py-2 text-sm font-medium text-white shadow-sm hover:bg-primario-light focus:outline-none"
+                    class="w-full rounded-md border border-transparent bg-primario px-6 py-2 text-sm font-medium text-white shadow-sm hover:bg-primario-light focus:outline-none"
                     >
                     Enviar
                     </button>
@@ -90,7 +90,7 @@
             </form>
         </div>
     </section>
-    <div class="hidden md:block w-full max-w-[1080px] py-24">
+    <!-- <div class="hidden md:block w-full max-w-[1080px] py-24">
         <blockquote
         class="px-5 py-8 text-2xl font-bold text-center text-primario"
         role="region"
@@ -98,6 +98,6 @@
         >
         "En SOMA, cuidamos de tu hogar con el mismo esmero con el que seleccionamos a nuestro equipo. Sabemos que cada familia es única, por eso ofrecemos soluciones personalizadas, éticas y seguras."
         </blockquote>
-    </div>
+    </div> -->
     
 </section>
